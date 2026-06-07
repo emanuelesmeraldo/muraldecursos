@@ -62,7 +62,7 @@ header {
 .post:nth-child(3n+1) { transform: rotate(-2deg); }
 .post:nth-child(3n+2) { transform: rotate(1deg); }
 .post:nth-child(3n+3) { transform: rotate(-1deg); }
-.post:nth-child(3n+4) { transform: rotate(0deg); }
+.post:nth-child(3n+4) { transform: rotate(2deg); }
 
 .post:hover {
     transform: scale(1.05) rotate(0deg);
@@ -80,8 +80,8 @@ header {
 .color-4 { background-color: #caffbf; }
 
 
-.post h3 { font-size: 1.1rem; margin-bottom: 10px; }
-.post p { font-size: 0.9rem; color: #000000; }
+.post h3 { font-size: 1.1rem; margin-bottom: 10px; color:#2c3e50;padding-top: 10px;padding-left: 10px;}
+.post p { font-size: 0.9rem; color: #2c3e50;padding: 20px;}
 
 
 .post a {
